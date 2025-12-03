@@ -1,5 +1,6 @@
 import tensorflow as tf
-from tensorflow.keras import layers, models
+from tensorflow.keras import layers, models  # pyright: ignore[reportMissingImports]
+
 
 def build_cnn(input_shape=(32,32,3), num_classes=10, dropout_rate=0.5):
     model = models.Sequential()
