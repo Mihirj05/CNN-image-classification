@@ -45,3 +45,8 @@ data/custom/
 ```bash
 #!/usr/bin/env bash
 python src/train.py --epochs 25 --batch_size 64 --use_augmentation True
+
+
+open file in code space in terminal run it streamlit run app.py
+
+new window will open upload the image check the analysis
